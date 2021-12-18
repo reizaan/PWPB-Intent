@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/explicitintent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Klik disini untuk Explicit Intent"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/implicitintent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Klik disini untuk Implicit Intent"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/gd1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Latihan GridLayout"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/gd2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Soal GridLayout"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/ui1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="UI1"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/ui2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="UI2"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/lv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="ListView"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/iu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="Input User"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
